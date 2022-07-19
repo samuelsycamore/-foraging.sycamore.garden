@@ -65,7 +65,7 @@ const Hero = () => {
                 </div>
               </div>
             </Link>
-            <Link href="/">
+            <Link href="https://thegoodliferevival.com/shop/fna">
               <div className="group col-span-1 mt-4 w-full cursor-pointer items-center justify-between rounded-xl bg-white p-6 shadow transition duration-200 hover:bg-gray-100 hover:bg-opacity-40 dark:bg-gray-800 dark:hover:bg-gray-500 dark:hover:bg-opacity-40 sm:flex">
                 <div className="flex-shrink-0 p-3 font-sans text-gray-700 dark:text-gray-50">
                   <Image
