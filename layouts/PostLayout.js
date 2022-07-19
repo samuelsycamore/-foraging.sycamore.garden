@@ -7,16 +7,10 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/plants/${fileName}`
-const discussUrl = (slug) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `${siteMetadata.siteUrl}/plants/${slug}`
-  )}`
-
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, tags, photo } = frontMatter
+  const { slug, date, title, tags, photo } = frontMatter
 
   return (
     <SectionContainer>
@@ -66,7 +60,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     <li className="flex items-center space-x-2" key={author.name}>
                       {author.avatar && (
                         <Image
-                          src={author.avatar}
+                          src="/static/images/avatar.jpeg"
                           width="38px"
                           height="38px"
                           alt="avatar"
