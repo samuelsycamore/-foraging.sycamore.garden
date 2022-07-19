@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/newsletter",
+      "destination": "https://buttondown.email/sycamore-garden",
+      "permanent": false
+    }
+  ]
+}
