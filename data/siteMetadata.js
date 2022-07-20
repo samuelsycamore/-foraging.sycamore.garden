@@ -1,8 +1,9 @@
 const siteMetadata = {
-  title: 'Sycamore Garden',
+  title: 'Sycamore Garden Plant Database',
   author: 'Sam Sycamore',
   headerTitle: 'Sycamore Garden',
-  description: 'Detailed descriptions of edible wild plants.',
+  description:
+    'The Sycamore Garden Plant Database gathers practical and scientific infomation about edible wild plants.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://foraging.sycamore.garden',
