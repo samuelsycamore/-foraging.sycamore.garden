@@ -7,7 +7,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Hero from '@/components/Hero'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 99
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('plants')
