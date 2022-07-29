@@ -2,7 +2,7 @@
 name: Sam Sycamore
 avatar: /static/images/sycamore-400.jpeg
 occupation: Writer and web developer
-email: sam@sycamore.design
+email: sam@sycamore.garden
 twitter: https://twitter.com/tanoaksam
 linkedin: https://www.linkedin.com/in/samuelsycamore
 github: https://github.com/samuelsycamore
@@ -16,4 +16,4 @@ Sam currently works as a Developer Relations Engineer at MUI. Previously he was 
 
 He spends his free time making music, hiking, and foraging for edible wild plants.
 
-Check out [Sam's plants](/plants) for detailed case studies of his work in tech.
+Check out [Sam's portfolio](https://sycamore.garden/) for detailed case studies of his work.
