@@ -14,6 +14,6 @@ Sam has over 10 years of professional experience as a writer, editor, content ma
 
 Sam currently works as a Developer Relations Engineer at MUI. Previously he was the Marketing Manager at Hashnode.
 
-He spends his free time making music, hiking, and foraging for edible wild plants.
+He spends his free time making music, traveling, hiking, and foraging for edible wild plants.
 
 Check out [Sam's portfolio](https://sycamore.garden/) for detailed case studies of his work.
