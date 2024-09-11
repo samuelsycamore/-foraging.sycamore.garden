@@ -52,6 +52,15 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  async redirects() {
+    return [
+      {
+        source: '/plants/edible-wild-chickweed',
+        destination: '/plants/chickweed',
+        permanent: true,
+      },
+    ]
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {

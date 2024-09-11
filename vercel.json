@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/newsletter/sign-up/",
-      "destination": "https://buttondown.email/sycamore-garden-foraging",
-      "permanent": false
-    }
-  ]
-}
