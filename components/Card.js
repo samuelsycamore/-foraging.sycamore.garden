@@ -10,7 +10,7 @@ const Card = ({ title, description, imgSrc, href }) => (
     >
       {imgSrc &&
         (href ? (
-          <Link href={href} aria-label={`Link to ${title}`}>
+          <Link legacyBehavior href={href} aria-label={`Link to ${title}`}>
             <Image
               alt={title}
               src={imgSrc}

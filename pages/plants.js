@@ -52,9 +52,9 @@ export default function Home({ posts }) {
                               src={photo}
                               layout="responsive"
                               objectFit="cover"
-                              height="50%"
-                              width="100%"
                               alt={title}
+                              width={544}
+                              height={306}
                             />
                             <h2 className="mt-4 text-2xl font-bold leading-8 tracking-tight">
                               {title}

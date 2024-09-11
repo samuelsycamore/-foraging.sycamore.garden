@@ -30,10 +30,10 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   src={photo}
                   layout="responsive"
                   objectFit="cover"
-                  height="50%"
-                  width="100%"
                   alt={title}
                   className="pt-4"
+                  width={544}
+                  height={306}
                 />
               </div>
             </div>
@@ -125,7 +125,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           Previous Article
                         </h3>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
-                          <Link href={`/plants/${prev.slug}`}>{prev.title}</Link>
+                          <Link legacyBehavior href={`/plants/${prev.slug}`}>
+                            {prev.title}
+                          </Link>
                         </div>
                       </div>
                     )}
@@ -135,7 +137,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           Next Article
                         </h3>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
-                          <Link href={`/plants/${next.slug}`}>{next.title}</Link>
+                          <Link legacyBehavior href={`/plants/${next.slug}`}>
+                            {next.title}
+                          </Link>
                         </div>
                       </div>
                     )}
@@ -152,8 +156,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     alt="Introduction to Foraging"
                     layout="responsive"
                     objectFit="cover"
-                    height="100%"
-                    width="100%"
+                    width={544}
+                    height={306}
                   />
                   <em>Introduction to Foraging</em> has been revised and expanded. Check it out
                   today.
