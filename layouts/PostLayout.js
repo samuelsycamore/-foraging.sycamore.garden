@@ -155,8 +155,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     height="100%"
                     width="100%"
                   />
-                  <em>Introduction to Foraging</em> has been revised an expanded for 2022! Check it
-                  out today.
+                  <em>Introduction to Foraging</em> has been revised and expanded. Check it out
+                  today.
                 </Link>
               </div>
               <div className="pt-4 xl:pt-8">
