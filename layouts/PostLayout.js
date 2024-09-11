@@ -43,33 +43,32 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
             <dl className="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
-              <dt className="sr-only">Authors</dt>
+              <dt className="sr-only">Author</dt>
               <dd className="pt-6">
                 <ul className="flex justify-center space-x-8 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
                   {authorDetails.map((author) => (
-                    <li className="flex items-center space-x-2" key={author.name}>
+                    <li className="" key={author.name}>
                       {author.avatar && (
                         <Image
-                          src="/static/images/avatar.jpeg"
-                          width="38px"
-                          height="38px"
+                          src="/static/images/sycamore-avatar.png"
+                          width="150px"
+                          height="150px"
                           alt="avatar"
-                          className="h-10 w-10 rounded-full"
+                          className="rounded-xl"
                         />
                       )}
-                      <dl className="whitespace-nowrap text-sm font-medium leading-5">
+                      <dl className="text-sm font-medium leading-5">
                         <dt className="sr-only">Name</dt>
-                        <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
-                        <dt className="sr-only">Twitter</dt>
-                        <dd>
-                          {author.twitter && (
-                            <Link
-                              href={author.twitter}
-                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                            >
-                              {author.twitter.replace('https://twitter.com/', '@')}
-                            </Link>
-                          )}
+                        <dd className="mb-1 text-xl font-bold text-gray-900 dark:text-gray-100">
+                          {author.name}
+                        </dd>
+                        <dt className="sr-only">About</dt>
+                        <dd className="text-gray-600 dark:text-gray-400">
+                          Sam Sycamore is a writer, teacher, and forager who's been working with
+                          wild and cultivated plants for over a decade. He holds a B.S. in Biology
+                          from the University of Louisville. He previously hosted The Good Life
+                          Revival Podcast, where he explored topics related to permaculture,
+                          rewilding, sustainability, and climate change.
                         </dd>
                       </dl>
                     </li>
