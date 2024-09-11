@@ -6,14 +6,14 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
   const router = useRouter()
   return (
     <Head>
-      <title>{title} | Edible Wild Plants</title>
+      <title>{`${title} | ${siteMetadata.title}`}</title>
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
       <meta property="og:type" content={ogType} />
       <meta property="og:site_name" content={siteMetadata.title} />
       <meta property="og:description" content={description} />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={`${title} | ${siteMetadata.title}`} />
       {ogImage.constructor.name === 'Array' ? (
         ogImage.map(({ url }) => <meta property="og:image" content={url} key={url} />)
       ) : (
@@ -21,7 +21,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       )}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={siteMetadata.twitter} />
-      <meta name="twitter:title" content={title} />
+      <meta name="twitter:title" content={`${title} | ${siteMetadata.title}`} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
       <link
