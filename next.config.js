@@ -55,8 +55,73 @@ module.exports = withBundleAnalyzer({
   async redirects() {
     return [
       {
+        source: '/plants/edible-wild-autumn-olives',
+        destination: '/plants/autumn-olives',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-raspberries-blackberries',
+        destination: '/plants/brambleberries',
+        permanent: true,
+      },
+      {
         source: '/plants/edible-wild-chickweed',
         destination: '/plants/chickweed',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-elderberries',
+        destination: '/plants/elderberries',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-garlic-mustard',
+        destination: '/plants/garlic-mustard',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-hairy-bittercress',
+        destination: '/plants/hairy-bittercress',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-spinach-lambsquarters',
+        destination: '/plants/lambsquarters',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-mulberries',
+        destination: '/plants/mulberries',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-mustard',
+        destination: '/plants/mustard',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-onions-garlic',
+        destination: '/plants/onions',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-pawpaws',
+        destination: '/plants/pawpaws',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-purslane',
+        destination: '/plants/purslane',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-sumac',
+        destination: '/plants/sumac',
+        permanent: true,
+      },
+      {
+        source: '/plants/edible-wild-wood-sorrel',
+        destination: '/plants/wood-sorrel',
         permanent: true,
       },
     ]
