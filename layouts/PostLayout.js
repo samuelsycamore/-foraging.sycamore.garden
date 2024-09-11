@@ -51,8 +51,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       {author.avatar && (
                         <Image
                           src="/static/images/sycamore-avatar.png"
-                          width="150px"
-                          height="150px"
+                          width="150"
+                          height="150"
                           alt="avatar"
                           className="rounded-xl"
                         />
