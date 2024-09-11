@@ -12,7 +12,7 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 
 export default function App({ Component, pageProps }) {
   return (
-    <PlausibleProvider domain="foraging.sycamore.garden">
+    <PlausibleProvider domain="ediblewild.info">
       <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
         <Head>
           <meta content="width=device-width, initial-scale=1" name="viewport" />
