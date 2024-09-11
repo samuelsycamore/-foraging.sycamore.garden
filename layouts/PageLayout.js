@@ -1,9 +1,7 @@
-import Link from '@/components/Link'
 import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
 import { BlogSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
-import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 export default function PostLayout({ frontMatter, authorDetails, children }) {
   const { slug, title } = frontMatter
@@ -15,7 +13,7 @@ export default function PostLayout({ frontMatter, authorDetails, children }) {
         authorDetails={authorDetails}
         {...frontMatter}
       />
-      <ScrollTopAndComment />
+
       <article className="">
         <div className="m-auto max-w-2xl xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
           <header className="pt-6 xl:pb-6">

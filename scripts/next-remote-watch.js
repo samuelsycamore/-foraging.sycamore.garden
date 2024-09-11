@@ -9,7 +9,6 @@ const chalk = require('chalk')
 const chokidar = require('chokidar')
 const program = require('commander')
 const http = require('http')
-const SocketIO = require('socket.io')
 const express = require('express')
 const spawn = require('child_process').spawn
 const next = require('next')
@@ -44,10 +43,6 @@ app.prepare().then(() => {
     chokidar
       .watch(program.args, { usePolling: Boolean(program.polling) })
       .on(program.event, async (filePathContext, eventContext = defaultWatchEvent) => {
-        // Emit changes via socketio
-        io.sockets.emit('reload', filePathContext)
-        app.server.hotReloader.send('building')
-
         if (program.command) {
           // Use spawn here so that we can pipe stdio from the command without buffering
           spawn(
@@ -88,9 +83,6 @@ app.prepare().then(() => {
   // create an express server
   const expressApp = express()
   const server = http.createServer(expressApp)
-
-  // watch files with socketIO
-  const io = SocketIO(server)
 
   // special handling for mdx reload route
   const reloadRoute = express.Router()

@@ -1,19 +1,16 @@
 const siteMetadata = {
-  title: 'Sycamore Garden Plant Database',
+  title: 'Edible Wild Plant Info',
   author: 'Sam Sycamore',
-  headerTitle: 'Sycamore Garden',
-  description:
-    'The Sycamore Garden Plant Database gathers practical and scientific infomation about edible wild plants.',
+  headerTitle: 'Edible Wild Plant Info',
+  description: 'Practical and scientific infomation about edible wild plants of North America.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://foraging.sycamore.garden',
-  siteRepo: 'https://github.com/samuelsycamore/-foraging-sycamore-garden',
+  siteUrl: 'https://www.ediblewild.info',
+  siteRepo: 'https://github.com/samuelsycamore/ediblewild.info',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/sycamore-400.jpeg',
+  image: '/static/images/sycamore-avatar.png',
   email: 'sam@sycamore.garden',
   github: 'https://github.com/samuelsycamore',
-  twitter: 'https://twitter.com/tanoaksam',
-  linkedin: 'https://www.linkedin.com/in/samuelsycamore',
   locale: 'en-US',
 }
 
