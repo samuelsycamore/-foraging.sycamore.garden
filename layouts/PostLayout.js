@@ -68,7 +68,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           wild and cultivated plants for over a decade. He holds a B.S. in Biology
                           from the University of Louisville. He previously hosted The Good Life
                           Revival Podcast, where he explored topics related to permaculture,
-                          rewilding, sustainability, and climate change.
+                          rewilding, climate change, and sustainability.
                         </dd>
                       </dl>
                     </li>
