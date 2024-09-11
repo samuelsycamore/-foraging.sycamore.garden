@@ -1,3 +1,3 @@
-# foraging.sycamore.garden
+# ediblewild.info
 
-Sycamore Garden Foraging Database
+Edible Wild Plant Info – Foraging Database and Resources.
