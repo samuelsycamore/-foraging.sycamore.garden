@@ -8,8 +8,8 @@ const Hero = () => {
         <div className="flex flex-col items-center justify-between xl:flex-row">
           <div className="mb-10 flex h-full w-full flex-col items-start justify-center pr-8 xl:mb-0 xl:w-6/12">
             <div className="flex flex-col items-center justify-start md:flex-row">
-              <h2 className="font-display z-50 ml-2 text-3xl font-extrabold leading-tight sm:text-4xl sm:leading-none md:text-5xl lg:text-5xl xl:text-6xl">
-                A world of abundance awaits you
+              <h2 className="font-display z-50 text-3xl font-extrabold leading-tight sm:text-4xl sm:leading-none md:text-4xl lg:text-5xl xl:text-5xl">
+                A world of abundance awaits
               </h2>
             </div>
             <p className="mt-6 text-lg text-gray-600 dark:text-gray-200">
